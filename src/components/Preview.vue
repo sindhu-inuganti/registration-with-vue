@@ -2,7 +2,7 @@
 <template>
   <div>
     <h2>Preview</h2>
-    <div class="field">First Name: {{rdata.fname}}</div>
+     <div class="field">First Name: {{rdata.fname}}</div>
     <div class="field">Last Name: {{rdata.lname}}</div>
     <div class="field">Full Name: {{fullName()}}</div>
     <div class="field">Email: {{rdata.email}}</div>
@@ -16,7 +16,7 @@
     </div>
     <div class="field">Country: {{rdata.vcountry}}</div>
     <div class="field">State: {{rdata.state}}</div>
-    <div class="field">Address: {{rdata.address}}</div>
+    <div class="field">Address: {{rdata.address}}</div> 
   </div>
 </template>
 <script>

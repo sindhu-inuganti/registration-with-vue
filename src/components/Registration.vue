@@ -2,8 +2,9 @@
 <div>
   <title>Employee Registration</title>
 
-  <body>
+ <body>
       <div>
+      
         <form>
           <h2>Register Employee</h2>
           <div class="field">
@@ -109,13 +110,12 @@
         </form>
       </div>
     
-  </body>
+  </body>  
 </div>
 </template>
 
 
 <script>
-//import { countries } from "./Countries.js";
 export default {
   name: "Registration",
   props: {
@@ -136,6 +136,8 @@ export default {
        this.rdata.email = "";
        this.rdata.gender = "";
        this.rdata.dob = "";
+      this.rdata.password = "";
+
        this.rdata.vcountry = "";
        this.rdata.state = "";
        this.rdata.address = "";

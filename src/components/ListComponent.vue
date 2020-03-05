@@ -11,7 +11,7 @@
         <th>State</th>
         <th>Address</th>
       </tr>
-      <tr v-for="d in data_array" :key="d.fname">
+      <tr v-for="d in data_array" :key="d.vcountry">
         <td>{{d.fname+""+d.lname}}</td>
         <td>{{d.email}}</td>
         <td>{{d.gender}}</td>
